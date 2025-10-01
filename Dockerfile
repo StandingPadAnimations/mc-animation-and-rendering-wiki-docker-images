@@ -1,4 +1,4 @@
-FROM mediawiki:latest
+FROM mediawiki:1.44.1-fpm
 
 # Install Citizen skin
 RUN git clone --depth 1 https://github.com/StarCitizenTools/mediawiki-skins-Citizen/ /var/www/html/skins/Citizen
